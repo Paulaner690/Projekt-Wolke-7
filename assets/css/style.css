@@ -1,6 +1,6 @@
 @font-face {
     font-family: amatic;
-    src: url(./AmaticSC-Regular.ttf);
+    src: url(../AmaticSC-Regular.ttf);
 }
 
 *{
@@ -17,7 +17,7 @@ html{
 /* -------------index.html-Styles------------*/
 
 .index{
-background: url(./main.jpg) no-repeat center;
+background: url(../main.jpg) no-repeat center;
 background-size: cover;
 height: 100vh;
 font-size: 5rem;
@@ -51,7 +51,7 @@ header a{
 /* ------------home styles-------------------- */
 
 div{
-    background: url(./main.jpg) no-repeat center;
+    background: url(../main.jpg) no-repeat center;
     background-size: contain;
     width: 50vw;
     height: 100vh;
@@ -90,7 +90,7 @@ article{
 /* ------------stories styles -------------------*/
 
 .cloud_one{
-    background: url(./wolke4.jpg) no-repeat center;
+    background: url(../wolke4.jpg) no-repeat center;
     background-size: cover;
     width: 90vw;
     height: 20vh;
@@ -117,7 +117,7 @@ line-height: 3rem;
 }
 
 .cloud_two{
-    background: url(./wolke2.jpg) no-repeat center;
+    background: url(../wolke2.jpg) no-repeat center;
     background-size: cover;
     width: 90vw;
     height: 20vh;
@@ -136,7 +136,7 @@ line-height: 3rem;
     font-weight: 900;
 }
 .cloud_three{
-    background: url(./wolke5.jpg) no-repeat center;
+    background: url(../wolke5.jpg) no-repeat center;
     background-size: cover;
     width: 90vw;
     height: 20vh;
@@ -151,7 +151,7 @@ line-height: 3rem;
 }
 
 .cloud_four{
-    background: url(./wolke6.jpg) no-repeat center;
+    background: url(../wolke6.jpg) no-repeat center;
     background-size: cover;
     width: 90vw;
     height: 20vh;
