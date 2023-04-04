@@ -1,0 +1,138 @@
+@font-face {
+    font-family: amatic;
+    src: url(../AmaticSC-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: "amatic", Arial, Helvetica, sans-serif;
+    background-color: rgb(248, 248, 248);
+}
+
+/* ---------Header Home und stories----------- */
+
+header{
+    background-color: rgb(248, 248, 248);
+    text-align: right;
+}
+
+header a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-size: 4rem;
+    margin: 30px 40px 0 0;
+}
+
+/* ------------stories styles -------------------*/
+/* Cloud 1-------------------------------------- */
+.cloud_one{
+    background: url(../wolke4.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 90vw;
+    max-height: 20vh;
+    margin: 5% auto;
+    padding: 60px 110px 380px 110px;
+}
+
+.cloud_one p{
+    font-size: 3rem;
+    width: 25vw;
+    text-align: right;
+    margin-left: 70%;
+}
+
+.cloud_one p::first-letter{
+    font-size: 5rem;
+    font-weight: 600;
+    padding-bottom: 0;
+}
+
+.cloud_one p:nth-child(2){
+    color: rgb(159, 19, 161);
+    line-height: 3rem;
+}
+
+/* Cloud 2---------------------------------------- */
+.cloud_two{
+    background: url(../wolke2.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 90vw;
+    max-height: 20vh;
+    margin: 5% auto;
+    padding:170px 0px 290px 80px;
+}
+
+.cloud_two p{
+    font-size: 3rem;
+    width: 25vw;
+    text-align: left;
+    color: black;
+    margin-left: 40px;
+}
+
+.cloud_two p::first-line{
+    font-weight: 900;
+}
+
+/* Cloud 3--------------------------------------- */
+.cloud_three{
+    background: url(../wolke5.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 90vw;
+    max-height: 20vh;
+    margin: 5% auto;
+    padding: 160px 0px 280px 0px;
+}
+
+.cloud_three p{
+    font-size:3rem;
+    width: 23vw;
+    margin: auto;
+}
+
+/* Cloud 4--------------------------------------- */
+.cloud_four{
+    background: url(../wolke6.jpg) no-repeat center;
+    background-size: cover;
+    max-width: 90vw;
+    max-height: 20vh;
+    margin: 5% auto;
+    padding:150px 0px 290px 100px;
+}
+
+h3{
+    color: darkgrey;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: left;
+    line-height: 1.2rem;
+}
+
+.h3center{
+    color: rgba(255, 255, 255, 0.506);
+    margin-left: 10px;
+    margin-bottom: 2%;
+}
+
+.cloud_four p{
+    font-size: 3rem;
+    text-align: left;
+    width: 54vw;
+}
+
+/* ---------------footer--------------------- */
+footer{
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 5rem;
+    text-transform: uppercase;
+    padding: 2%;
+}
